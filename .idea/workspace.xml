@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1947bb2e-0ffe-4177-82d3-0430e62dc042" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/classLoader/ClassLoaderChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/classLoader/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/collection/list/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/collection/list/LinkedArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/collection/list/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/collection/set/HashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/collection/set/LinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/collection/set/TreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/map/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/map/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/map/LinkedHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/map/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/map/TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/multiThread/ReenTrantLock/FairLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/multiThread/ReenTrantLock/NonfairLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/network/IP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gaodev/java/reflection/reflection.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/ProducerConsumerModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyPrintOddEvenSyn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyPrintOddEveWait.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/SleepDontReleaseMonitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/SleepDontReleaseLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-19">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/SleepInterrupted.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/Join.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/JoinInterrupt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/JoinThreadState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/reflection/ReflectSample.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/reflection/reflection.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/classLoader/ClassLoaderChecker.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/collection/List.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/map/Map.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/collection/list/ArrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/network/IP.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/ReenTrantLock.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/ReenTrantLock/ReenTrantLock.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/ReenTrantLock/NonfairLock.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/ReenTrantLock/FairLock.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/RunnableStyle.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/ThreadStyle.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/wrongways/AnonymousInnerClassDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/wrongways/DemoTimmerTask.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/wrongways/Lambda.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/wrongways/ThreadPool5.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/BothRunnableThread.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/startthread/CantStartTwice.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/startthread/StartAndRunMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayInterrupted.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadWithSleep.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadWithSleepEveryLoop.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RunThrowException.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/volatiledemo/WrongWayVolatile.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadWithoutSleep.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/CantInterrupt.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadInProd.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadInProd2.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/StopThread.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/volatiledemo/WrongWayVolatileCantStop.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/volatiledemo/WrongWayVolatileFixed.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/sixstates/BlockedWaitingTimedWaiting.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/sixstates/NewRunnableTerminated.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyPrintOddEveWait.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyReleaseOwnMonitor.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/Wait.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyAll.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/ProducerConsumerModel.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/SleepDontReleaseMonitor.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/ThreadSetName.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/JoinThreadState.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/JoinPrinciple.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/JoinInterrupt.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/Join.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/Id.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/CurrentThread.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyPrintOddEvenSyn.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/SleepDontReleaseLock.java" />
+        <option value="$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/SleepInterrupted.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-67" />
+    <option name="y" value="63" />
+    <option name="width" value="1382" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="multiThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="multiThread" type="462c0819:PsiDirectoryNode" />
+              <item name="threadobjectclasscommonmethods" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570547331248" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/尚硅谷大数据项目之电商推荐系统/3.代码/ECommerceRecommendSystem" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaCode\javaStudy\src\com\gaodev\java\classLoader" />
+      <recent name="E:\JavaCode\javaStudy\src\com\gaodev\java\reflection" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SleepDontReleaseLock">
+    <configuration name="CantInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaodev.java.multiThread.stopthreads.CantInterrupt" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaodev.java.multiThread.stopthreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CantStartTwice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaodev.java.multiThread.startthread.CantStartTwice" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaodev.java.multiThread.startthread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RightWayStopThreadWithSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaodev.java.multiThread.stopthreads.RightWayStopThreadWithSleep" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaodev.java.multiThread.stopthreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RightWayStopThreadWithSleepEveryLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaodev.java.multiThread.stopthreads.RightWayStopThreadWithSleepEveryLoop" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaodev.java.multiThread.stopthreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleepDontReleaseLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gaodev.java.multiThread.threadobjectclasscommonmethods.SleepDontReleaseLock" />
+      <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gaodev.java.multiThread.threadobjectclasscommonmethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SleepDontReleaseLock" />
+        <item itemvalue="Application.CantInterrupt" />
+        <item itemvalue="Application.RightWayStopThreadWithSleepEveryLoop" />
+        <item itemvalue="Application.RightWayStopThreadWithSleep" />
+        <item itemvalue="Application.CantStartTwice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1947bb2e-0ffe-4177-82d3-0430e62dc042" name="Default Changelist" comment="" />
+      <created>1536405755617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536405755617</updated>
+      <workItem from="1536405764254" duration="938000" />
+      <workItem from="1567250042021" duration="4015000" />
+      <workItem from="1567309805775" duration="810000" />
+      <workItem from="1567673839724" duration="7287000" />
+      <workItem from="1567738877253" duration="268000" />
+      <workItem from="1569306170283" duration="1886000" />
+      <workItem from="1569574049185" duration="3539000" />
+      <workItem from="1569641564494" duration="64000" />
+      <workItem from="1570520063722" duration="14720000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33527000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8967213" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46557376" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="Structure" order="10" weight="0.24962178" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/ReenTrantLock/FairLock.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>int i=0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="224" column="44" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="44" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/network/IP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/jre/lib/rt.jar!/sun/net/util/IPAddressUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#6608#6609#0" expanded="true" />
+            <element signature="e#6666#6667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/ReenTrantLock/NonfairLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/invoke/DirectMethodHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="269" selection-start-line="269" selection-end-line="269" />
+          <folding>
+            <element signature="e#11384#11385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1469" selection-start-line="1469" selection-end-line="1469" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/jre/lib/rt.jar!/sun/instrument/TransformerManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#2416#2417#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#4675#4676#0" expanded="true" />
+            <element signature="e#4723#4724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="1521" lean-forward="true" selection-start-line="1521" selection-end-line="1521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="234" column="36" lean-forward="true" selection-start-line="234" selection-start-column="36" selection-end-line="234" selection-end-column="36" />
+          <folding>
+            <element signature="e#7116#7117#0" expanded="true" />
+            <element signature="e#7150#7151#0" expanded="true" />
+            <element signature="e#8451#8452#0" expanded="true" />
+            <element signature="e#8515#8516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/ReenTrantLock/FairLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/ThreadStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/BothRunnableThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/wrongways/ThreadPool5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/wrongways/DemoTimmerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/wrongways/AnonymousInnerClassDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#230#391#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/wrongways/Lambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/createthreads/RunnableStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/startthread/StartAndRunMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/startthread/CantStartTwice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RunThrowException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadWithoutSleep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadWithSleep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/CantInterrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadWithSleepEveryLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadInProd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayStopThreadInProd2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/volatiledemo/WrongWayVolatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/volatiledemo/WrongWayVolatileCantStop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/volatiledemo/WrongWayVolatileFixed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/RightWayInterrupted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/stopthreads/StopThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/sixstates/NewRunnableTerminated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/sixstates/BlockedWaitingTimedWaiting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyReleaseOwnMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/Wait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/ThreadSetName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/JoinPrinciple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/Id.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/CurrentThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/ProducerConsumerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyPrintOddEvenSyn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/WaitNotifyPrintOddEveWait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/SleepDontReleaseMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/SleepDontReleaseLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/SleepInterrupted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/Join.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/JoinInterrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gaodev/java/multiThread/threadobjectclasscommonmethods/JoinThreadState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>javaStudy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
